@@ -1,6 +1,11 @@
 # Movie-Api
 Movie Api - Practices for Node.js
 
+# Authorization
+Added middleware for authorization with JWT.
+
+Exp: /api/movies?token=TOKEN
+
 # Movies
 
 | Route | HTTP Verb	 | POST body	 | Description	 |
@@ -24,5 +29,8 @@ Movie Api - Practices for Node.js
 | /api/directors/:director_id | `DELETE` | Empty | Delete a director. |
 | /api/directors/:director_id/best10movie | `GET` | Empty | The director's top 10 films. |
 
-# Authorization
-....
+# Index
+| Route | HTTP Verb	 | POST body	 | Description	 |
+| --- | --- | --- | --- |
+| /register | `POST` | {username: 'ffe', password: '123'} | Create new user.|
+| /auth | `POST` | {username: 'ffe', password: '123'} | Generate new token.|
