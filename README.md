@@ -23,3 +23,6 @@ Movie Api - Practices for Node.js
 | /api/directors/:director_id | `PUT` | {'name':'foo', 'surname':'bar', 'bio': 'lorem'} | Update a director with new info. |
 | /api/directors/:director_id | `DELETE` | Empty | Delete a director. |
 | /api/directors/:director_id/best10movie | `GET` | Empty | The director's top 10 films. |
+
+# Authorization
+....
